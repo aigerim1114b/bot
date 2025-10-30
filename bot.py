@@ -360,7 +360,7 @@ def main() -> None:
     """Run the bot."""
 
     token = os.getenv('BOT_TOKEN')
-      if not token:
+    if not token:
         logging.error("No BOT_TOKEN found in environment variables")
         return
 
