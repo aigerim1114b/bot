@@ -425,8 +425,3 @@ if __name__ == "__main__":
 
     main()
 
-pip install python-telegram-bot
-
-pip show python-telegram-bot
-
-pip install --upgrade python-telegram-bot
