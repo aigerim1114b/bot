@@ -298,7 +298,7 @@ async def handle_question_8(update: Update, context: ContextTypes.DEFAULT_TYPE) 
 
         # Send audio file (replace 'question9_audio.mp3' with your actual audio file)
         try:
-            with open('Full Speed Ahead.mp3', 'rb') as audio:
+            with open('02 Full Speed Ahead.mp3', 'rb') as audio:
                 await update.message.reply_audio(audio)
         except FileNotFoundError:
             await update.message.reply_text("【Аудио файл】")
